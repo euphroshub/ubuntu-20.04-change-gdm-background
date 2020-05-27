@@ -29,7 +29,7 @@ if [ ! -x "$(command -v glib-compile-resources)" ]; then
 fi
 
 # Assign the default gdm theme file path.
-gdm3Resource=/usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource
+gdm3Resource=/usr/share/gnome-shell/theme/Pop/gnome-shell-theme.gresource
 
 # Create a backup file of the original theme if there isn't one.
 [ ! -f "$gdm3Resource"~ ] && cp "$gdm3Resource" "$gdm3Resource~"
