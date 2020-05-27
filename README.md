@@ -1,17 +1,17 @@
-# ubuntu-20.04-change-gdm-background
+# ubuntu-20.04-change-gdm-background 
 
 This script automates the process of setting an image in the GNOME Display Manager 3 background
-which comes by default with Ubuntu version 20.04 Focal Fossa.
+which comes by default with Ubuntu version 20.04 Focal Fossa. Also made the change to make it work on Pop_OS! 20.04
 
 ## Warning
 
-This script wont work with any older version of Ubuntu because they have a different
+This script wont work with any older version of Ubuntu or Pop_OS! because they have a different
 way of dealing with gdm settings.
 
 It also won't work if your system is set to a custom gdm3 theme. You will have to reset to the
 default configuration of gdm3 before using the script.
 
-This tool was made specifically to work with Ubuntu 20.04 as it now bundles all
+This tool was made specifically to work with Ubuntu 20.04 and Pop_OS! 20.04 as it now bundles all
 configuration files inside a .gresource file.
 
 If you are going to set an image file that has spaces in its file name or folders, remember to
@@ -26,6 +26,8 @@ Then, you can download the script with the command below:
 wget github.com/thiggy01/ubuntu-20.04-change-gdm-background/raw/master/ubuntu-20.04-change-gdm-background
 ```
 And set it as an executable with `chmod +x gdm-change-login-background`
+
+
 
 ## Usage
 
