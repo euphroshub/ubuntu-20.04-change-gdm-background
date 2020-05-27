@@ -17,6 +17,8 @@ configuration files inside a .gresource file.
 If you are going to set an image file that has spaces in its file name or folders, remember to
 scape them with backslashes.
 
+Make sure that the path at line 32 of the code matches your own path in your system, if not, you are free to edit it to make it work with your operating system.
+
 ## Installation
 
 First, you will need to install libglib2.0-dev-bin with `sudo apt install libglib2.0-dev-bin`
